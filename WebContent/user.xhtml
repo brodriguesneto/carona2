@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<HTML xmlns:h="http://xmlns.jcp.org/jsf/html">
+<HEAD>
+<META charset="UTF-8"/>
+<TITLE>Home</TITLE>
+</HEAD>
+<BODY>
+	<H1>Register User</H1>
+	<h:form>
+	    <h:commandButton value="User name" action="#{userBean.setUserId}"/>
+		<h:inputText value="#{userBean.userId}"/>
+		<div/>
+		<h:commandButton value="Phone number" action="#{userBean.setPhoneNumber}"/>
+		<h:inputText value="#{userBean.phoneNumber}"/>
+		<div/>
+	    <h:commandButton value="First Name" action="#{userBean.setFirstName}"/>
+		<h:inputText value="#{userBean.firstName}"/>
+		<div/>
+	    <h:commandButton value="Last Name" action="#{userBean.setLastName}"/>
+		<h:inputText value="#{userBean.lastName}"/>
+		<div/>
+	    <h:commandButton value="Email Addr" action="#{userBean.setEmail}"/>
+		<h:inputText value="#{userBean.email}"/>
+	</h:form>
+</BODY>
+</HTML>

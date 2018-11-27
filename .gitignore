@@ -1,0 +1,7 @@
+.settings
+build
+.project
+.classpath
+target/*
+
+
